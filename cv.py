@@ -1,41 +1,41 @@
-import streamlit as cv
+import streamlit as st
 
-cv.write("TECHNICIEN SUPERIEUR EN GEOMATIQUE")
-
-
-cv.warning("Diplômes:")
-
-cv.write("Licence en Géographie Humaine à l'Université Cheikh Anta Diop")
-
-cv.write("BTS en Géomatique au Centre d'Entreprenariat et de Développement Technique")
-
-cv.write("Attestation de Pretation de Service délivrée par l'ANSD (RGPH5)")
-
-cv.write(" baccalauriat à l'Université Cheikh Anta Diop de Dakar ")
+st.title("TECHNICIEN SUPERIEUR EN GEOMATIQUE")
 
 
+st.subheader("Diplômes:")
 
-cv.warning("Competences:")
+st.write("Licence en Géographie Humaine à l'Université Cheikh Anta Diop de Dakar")
 
-cv.write("Collecte de donnée")
-cv.write("Numerisation")
-cv.write("Topographie")
-cv.write("Conception de plan sur Autocad")
-cv.write("realisation de carte SIG")
-cv.write("python")
-cv.write("cartographie")
+st.write("BTS en Géomatique au Centre d'Entreprenariat et de Développement Technique")
+
+st.write("Attestation de Prestation de Service délivrée par l'ANSD (RGPH5)")
+
+st.write(" baccalauréat à l'Université Cheikh Anta Diop de Dakar ")
 
 
 
-cv.warning("CONNAISSANCE INFORMATIQUE:")
+st.subheader("Compétences:")
 
-cv.write("Suite Office")
+st.write("Collecte de données")
+st.write("Numerisation")
+st.write("Topographie")
+st.write("Conception de plan sur Autocad")
+st.write("Réalisation de carte SIG")
+st.write("Python")
+st.write("Cartographie")
+st.write("QGIS/ArcGIS")
 
-with cv.sidebar:
 
-        cv.write("DALA COULIBALY")
-        cv.write("Mariée et un enfant")
-        cv.write("Mail:dalacoulibaly18@gmal.com")
-        cv.write("Adresse:Dakar")
+st.subheader("Connaissances Informatiques:")
+
+st.write("Suite Office")
+
+with st.sidebar:
+       st.title("DALA COULIBALY")
+       st.write("Mariée et un enfant")
+       st.write("Mail: dalacoulibaly18@gmail.com")
+       st.write("Adresse:Dakar/Sénégal")
+
         
         
